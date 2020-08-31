@@ -5,29 +5,19 @@
 
 
 
+
 .app {
     
-    position:absolute;             
-    left:50%;
-    top:20%;
-    height:100px;                  
-    width:100px;                   
+   
+    height:300px;                  
+    width:300px;                   
     text-align:center;
-    padding:10px 0px 0px 0px;     
-    margin:-90px 0px 0px -112px;  
+      
+	background:url(../img/cam2.jpg)    ; 
+	
 }
 
-.imagem{
-	
-	background:url(../img/cam.jpg) no-repeat  ; 
-	height:1500px   ;               
-    width:1500px ; 
-	text-align:center;
-	left:50%;
-    top:50%;
-	
-	
-}
+
 
 .iniciar{
 	

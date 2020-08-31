@@ -3,7 +3,10 @@
 
 
 
-
+	document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(navigator.camera);
+}
 
 
 
@@ -11,6 +14,7 @@
 
 
 var app = {
+
 
     capture: function () {
 
